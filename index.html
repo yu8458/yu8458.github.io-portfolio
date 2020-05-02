@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang=ja dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>yuta Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header_right">
+        <a href="index.html" class="navigate-anchor"><img src="./img/logo.png" /></a>
+      </div>
+      <div class="header_left a_tag">
+        <ul>
+          <li>
+            <a href="#profile" class="navigate-anchor">Profile</a>
+          </li>
+          <li>
+            <a href="#skill" class="navigate-anchor">Skill</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="navigate-anchor">Portfolio</a>
+          </li>
+          <li>
+            <a href="#service" class="navigate-anchor">Service</a>
+          </li>
+          <li>
+            <a href="#contact" class="navigate-anchor">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="fadeout">
+        <div class="top">
+          <div class="content a_tag">
+            <p>
+              My Portfolio
+            </p>
+            <ul>
+              <li>
+                <a href="#profile" class="navigate-anchor">Profile</a>
+              </li>
+              <li>
+                <a href="#skill" class="navigate-anchor">Skill</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="navigate-anchor">Portfolio</a>
+              </li>
+              <li>
+                <a href="#service" class="navigate-anchor">Service</a>
+              </li>
+              <li>
+                <a href="#contact" class="navigate-anchor">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content_top" id="profile">
+          <div class="title">
+            <h2>Profile</h2>
+          </div>
+          <div class="profile_introduction">
+            <div class="introduction">
+              <p class="name">
+                Yuta Yoshida
+              </p>
+              <p class="introduction_coment">
+                東京都在住
+              </p>
+              <p class="introduction_coment">
+                北海道薬科大学卒業
+              </p>
+              <p class="introduction_coment">
+                Web制作を全般的にフリーランスとして活動中。<br />責任を持って迅速・丁寧に最後まで対応します。お客様と頻繁にコミュニケーションをとり、サイトの成功を一緒に考え、親身になってお仕事をさせていただきます。
+              </p>
+            </div>
+            <div class="profile_photo">
+              <img src="./img/profile.jpeg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="content_top" id="skill">
+          <div class="title">
+            <h2>Skill</h2>
+          </div>
+          <div class="skill_introduction">
+            <div class="skill_photo">
+                <img src="./img/skill.jpg" />
+            </div>
+            <div class="skill_detail">
+              <div class="skill_image">
+                <img src="./img/html.png" />
+                <img src="./img/css.png" />
+                <img src="./img/BootStrap.png" />
+                <img src="./img/JavaScript.png" />
+                <img src="./img/jQuery.png" />
+                <img src="./img/php.png" />
+                <img src="./img/Laravel.png" />
+                <img src="./img/mySQL.png" />
+                <img src="./img/WordPress.png" />
+                <img src="./img/github.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" id="modal01">
+          <div class="modal_wrapper">
+            <div class="wrapper_img">
+              <img src="./img/isara.png" />
+            </div>
+            <div class="wrapper_introduction">
+              <div class="close_modal">
+                <div class="fb">×</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" id="modal02">
+          <div class="modal_wrapper">
+            <div class="wrapper_img">
+              <img src="./img/mitsukazeya.png" />
+            </div>
+            <div class="wrapper_introduction">
+              <div class="close_modal">
+                <div class="fb">×</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content_top" id="portfolio">
+          <div class="title">
+            <h2>Portfolio</h2>
+          </div>
+          <div class="collection">
+            <div class="portfolio_introduction" data-target="modal01">
+              <img src="./img/isara_sh.png" />
+              <p>
+                学習系LPサイト模写
+              </p>
+            </div>
+            <div class="portfolio_introduction" data-target="modal02">
+              <img src="./img/matsukazeya_sh.png" />
+              <p>
+                お菓子系LPサイト模写
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content_top" id="service">
+          <div class="title">
+            <h2>Services</h2>
+          </div>
+          <div class="services_content">
+            <div class="services_information">
+              <img src="./img/coding2.png" />
+              <p class="services_title">
+                ホームページ制作
+              </p>
+              <p class="services_text">
+                コーポレートサイト、LP制作などWebサイト制作全般をお受けします。ホームページをお持ちでないのならば、大きな機会損失をしている可能性がありますので、HP作成を検討されることをお勧めします。
+              </p>
+            </div>
+            <div class="services_information">
+              <img src="./img/iPhone.png" />
+              <p class="services_title">
+                スマホ対応
+              </p>
+              <p class="services_text">
+                現在80%以上がスマートフォンでWebサイトを閲覧されているため、Webサイトをレスポンシブ化させることはユーザビリティを向上させる上で重要な役割を担っています。スマホ、タブレット、パソコンどの端末でもストレスなく閲覧できるように、レスポンシブ対応いたします。
+              </p>
+            </div>
+            <div class="services_information">
+              <img src="./img/WordPress.png" />
+              <p class="services_title">
+                WordPress制作
+              </p>
+              <p class="services_text">
+                WordPressを用いてのサイト制作をいたします。ブログなど頻繁に更新を必要とするサイトはWordPressで作成することをお勧めしております。お客様のご要望をしっかりとヒアリングし、実用的なHPの作成いたします。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content_top" id="contact">
+          <div class="title">
+            <h2>Contact</h2>
+          </div>
+          <div class="contact">
+            <!-- class, action, methodを変更しないでください -->
+            <form class="formrun" action="https://form.run/api/v1/r/uwg32ouayl6kjjj8s455xeic" method="post">
+              <!-- ↓自由に要素を追加・編集することができます -->
+              <div class="form_text">
+                <div class="form_label">
+                  <label>お名前</label>
+                </div>
+                <div class="form_input">
+                  <input name="お名前" type="text" placeholder="山田　太郎">
+                </div>
+              </div>
+
+              <div class="form_text">
+                <div class="form_label">
+                  <label>メールアドレス [必須]</label>
+                </div>
+                <div class="form_input">
+                  <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required placeholder="example@gmail.com">
+                  <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                </div>
+              </div>
+
+              <div class="inquiry">
+                <div class="form_label">
+                  <label>お問い合わせ</label>
+                </div>
+                <div class="inquiry_message">
+                  <textarea name="お問い合わせ" data-formrun-required></textarea>
+                  <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+                </div>
+              </div>
+
+              <!-- ボット投稿をブロックするためのタグ -->
+              <div class="_formrun_gotcha">
+                <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+              </div>
+
+              <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送　　信</button>
+            </form>
+          </div>
+        </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy;Yuta Yoshida All Rights Reserved
+      </p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
