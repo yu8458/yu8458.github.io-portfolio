@@ -14,9 +14,17 @@ header ul li {
     font-size: 1.2em;
 }
 
+header ul {
+  padding: 0;
+}
+
 header img {
   width: 120px;
   height: auto;
+}
+
+.header_right {
+  padding: 0;
 }
 
 .header_left {
@@ -356,6 +364,7 @@ footer {
 header {
   flex-direction: column;
   text-align: center;
+  padding: 15px 0;
 }
 
 header ul {
@@ -364,6 +373,7 @@ header ul {
 
 header ul li {
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .header_right {
@@ -373,6 +383,7 @@ header ul li {
   position: relative;
   margin-right: auto;
   padding: 0 10px;
+
 }
 
 .header_left {
@@ -380,7 +391,9 @@ header ul li {
 }
 
 .content {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  padding-top: 30%;
 }
 
 .profile_introduction {
@@ -399,7 +412,7 @@ header ul li {
 }
 
 .profile_photo img {
-  width: 350px;
+  width: 100%;
   height: auto;
 }
 
@@ -414,7 +427,7 @@ header ul li {
 }
 
 .skill_photo img {
-  width: 350px;
+  width: 100%;
   height: auto;
 }
 
@@ -461,4 +474,9 @@ header ul li {
 textarea {
   height: 10rem;
 }
+
+button {
+  font-size: 100%;
+}
+
 }
