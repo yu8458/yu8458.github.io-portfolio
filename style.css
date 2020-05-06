@@ -379,8 +379,13 @@ header ul li {
   width: 100%;
 }
 
+.content {
+  margin: 0 auto;
+}
+
 .profile_introduction {
   flex-direction: column-reverse;
+  margin: 0 auto;
 }
 
 .introduction{
@@ -400,6 +405,7 @@ header ul li {
 
 .skill_introduction {
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .skill_photo {
